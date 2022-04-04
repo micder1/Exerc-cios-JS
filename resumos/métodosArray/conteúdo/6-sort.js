@@ -79,3 +79,9 @@ By the way, if we ever want to know which elements are compared – nothing prev
 The algorithm may compare an element with multiple others in the process, 
 but it tries to make as few comparisons as possible.
 */
+
+//O MAIS CORRETO PARA DAR SORT EM ORDEM NUMÉRICA (usando arrow function):
+
+let arrCorreto = [3, 15, 12, 5]
+
+arrCorreto.sort( (a, b) => a - b)

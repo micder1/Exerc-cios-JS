@@ -25,14 +25,6 @@ let arr = [1, 2, 3, 4, 5]
     arr.shift()//remove o 0
     console.log(arr)
 
-//acessar ultimo elemento do array
-
-    console.log(arr[arr.length - 1]) //retorna o ultimo elemento do array
-
-//isArray : checa se é um array
-
-    console.log(Array.isArray(arr)) // retorna true
-
 //splice(indice, elementos a serem deletados, elemento a ser adicionado) : adiciona um elemento no indice indicado
 
     arr.splice(2, 0, "adicionei com o splice")
@@ -40,6 +32,19 @@ let arr = [1, 2, 3, 4, 5]
 
     arr.splice(2, 1) //removi o elemento de indice 2
     console.log(arr)
+
+//slice(start, end) – creates a new array, copies elements from index start till end (not inclusive) into it.
+
+    arr.slice(0, 2)
+    console.log(arr)
+
+//acessar ultimo elemento do array
+
+    console.log(arr[arr.length - 1]) //retorna o ultimo elemento do array
+
+//isArray : checa se é um array
+
+    console.log(Array.isArray(arr)) // retorna true
 
 //indexOf
 
